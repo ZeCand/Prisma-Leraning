@@ -1,1 +1,3 @@
-console.log("hello");
+import { PrismaClient, Prisma } from "./generated/prisma";
+
+const prisma = new PrismaClient();
